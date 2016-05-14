@@ -10,7 +10,15 @@
 ![demo/demo.gif](https://raw.githubusercontent.com/yarox24/binent/master/demo/demo.gif)
 
 ##Installation
-Work in progress
+###Linux
+```
+wget https://raw.githubusercontent.com/yarox24/binent/master/binent.py
+chmod +x binent.py
+```
+
+###Windows
+Check out pre-packaged executables:
+https://github.com/yarox24/binent/releases
 
 ## Limitations
 - calculation of files of any size require 64-bit version of Python
@@ -32,6 +40,11 @@ Calculate entropy for files in directory and sub-directories (recursive):
 ```
 binent.py -r starting_directory
 ```
+Find files with high entropy 
+```
+binent.py -e -r -l 7.99 starting_directory
+```
+For more usages check options
 
 ## Options
 ```
@@ -50,3 +63,4 @@ optional arguments:
   -e, --suppress_errors
                         Don't show any exceptions/errors and also empty files
 ```
+
