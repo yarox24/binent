@@ -7,7 +7,10 @@
 - Windows/Linux
 
 ## Demo
-Work in progress 
+![demo/demo.gif](https://raw.githubusercontent.com/yarox24/binent/master/demo/demo.gif)
+
+##Installation
+Work in progress
 
 ## Limitations
 - calculation of files of any size require 64-bit version of Python
