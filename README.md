@@ -12,6 +12,7 @@
 ##Installation
 ###Linux
 ```
+pip install numpy
 wget https://raw.githubusercontent.com/yarox24/binent/master/binent.py
 chmod +x binent.py
 ```
@@ -40,7 +41,7 @@ Calculate entropy for files in directory and sub-directories (recursive):
 ```
 binent.py -r starting_directory
 ```
-Find files with high entropy 
+Find files with high entropy: 
 ```
 binent.py -e -r -l 7.99 starting_directory
 ```
