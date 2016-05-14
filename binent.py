@@ -29,7 +29,7 @@ def utf_variable(string):
    return utf
 
 
-parser = argparse.ArgumentParser(description='Calculate entropy of a file(s)')
+parser = argparse.ArgumentParser(description='Cross-platform entropy calculation script with filtering and custom-block size options.')
 parser.add_argument('-c', '--chunk', nargs=1, help='Fixed block-size (e.g. 256, 15K, 20M, 30G) Default: whole file')
 parser.add_argument('-r', '--recursive', dest='recursive', action='store_true', help='Recursive traversal')
 parser.add_argument('-l', "--low_limit", default=1.0, type=entropy_float,
