@@ -7,7 +7,7 @@
 - Windows/Linux
 
 ## Demo
-[![asciicast](https://asciinema.org/a/14.png)](https://asciinema.org/a/14)
+Work in progress 
 
 ## Limitations
 - calculation of files of any size require 64-bit version of Python
